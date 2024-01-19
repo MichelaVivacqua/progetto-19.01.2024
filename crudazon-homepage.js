@@ -63,9 +63,6 @@ const getProducts = function () {
     })
     .catch((err) => {
       console.log("errore!", err);
-      // magari qua creeremmo un Alert di bootstrap...
-      // - errori di connessione internet nostri
-      // - siamo finiti qui dentro perchè abbiamo fatto un throw new Error()
     });
 };
 getProducts();
