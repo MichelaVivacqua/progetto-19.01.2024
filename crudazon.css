@@ -18,3 +18,10 @@ h5,
 h6 {
   font-family: "Satisfy", cursive;
 }
+/* 
+non funziona perchè dovrei incollare la navbar al suo contenitore, quindi la barra di caricamento non potrebbe più stare fuori dal main
+.navbar {
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+} */
