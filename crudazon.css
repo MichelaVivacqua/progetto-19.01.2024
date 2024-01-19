@@ -6,6 +6,8 @@
 
 body {
   font-family: "Manrope", sans-serif;
+  background-color: #e67e22;
+  background: linear-gradient(to right, #ffd700, #e74c3c);
 }
 
 h1,

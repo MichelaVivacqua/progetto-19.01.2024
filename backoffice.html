@@ -38,14 +38,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active text-danger"
                   aria-current="page"
                   href="./crudazon-homepage.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./backoffice.html">Back-office</a>
+                <a class="nav-link text-danger" href="./backoffice.html"
+                  >Back-office</a
+                >
               </li>
             </ul>
           </div>
@@ -64,7 +66,7 @@
             <h2 id="form-title" class="text-center mb-5">
               Aggiungi un prodotto super lussuoso e autentico da vendere!
             </h2>
-            <form id="product-form">
+            <form id="product-form" class="text-center">
               <div class="mb-3">
                 <label for="name" class="form-label">Nome prodotto</label>
                 <input class="form-control" id="name" required />
@@ -93,10 +95,10 @@
                   required
                 />
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-light">VENDI</button>
               <button
                 type="button"
-                class="btn btn-primary"
+                class="btn btn-light"
                 onclick="confirmReset()"
               >
                 Reset
